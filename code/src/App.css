@@ -1,0 +1,143 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: auto;
+    overflow: auto;
+    text-align: center;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .bar {
+    fill: orange;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+  }
+  
+  .App-header {
+    /*background-color: rgb(16, 99, 99);*/
+    height: 120px;
+    padding: 20px;
+    color: brown;
+  }
+  
+  .App-title {
+    font-size: 1.5em;
+  }
+  
+  .App-intro {
+    font-size: large;
+  }
+  
+  a {
+    font-size: 0.9em;
+    color: #2196F3;
+    text-decoration: none;
+  }
+  body {
+    font-family: "Open Sans", sans-serif;
+    background-size: cover;
+    background: url("https://images8.alphacoders.com/354/354203.jpg") 10% fixed;
+    margin:0px !important;
+  }
+
+  .dropbtn {
+    background-color: brown;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    float: right;
+    opacity: 0.6;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content option {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content option:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+
+  .arc text {
+    font: 10px sans-serif;
+    text-anchor: middle;
+  }
+  
+  .arc path {
+    stroke: #fff;
+  }
+  
+  .toolTip {
+      position: absolute;
+      display: none;
+      width: auto;
+      height: auto;
+      background: none repeat scroll 0 0 white;
+      border: 0 none;
+      border-radius: 8px 8px 8px 8px;
+      box-shadow: -3px 3px 15px #888888;
+      color: black;
+      font: 12px sans-serif;
+      padding: 5px;
+      text-align: center;
+  }
+
+.Axis-Bottom text {
+  transform: rotate(-45deg);
+  text-anchor: end;
+}
+
+rect:hover {
+  fill: steelblue;
+}
